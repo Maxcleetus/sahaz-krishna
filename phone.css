@@ -47,25 +47,25 @@
 .text{
     height: 1740px;
     margin-top: 10px;
-    width: 804px;
+    width: 756px;
 }
 .text .logo2 {
     top: -172px;
-    right: 67px;
+    right: 41px;
     height: 1086px;
     width: 666px;
     font-size: 28px;
 }
 .text .text1 h1 {
     top: 1395px;
-    left: 96px;
+    left: 68px;
     font-size: 56px;
 }
 .back a{
     font-size: 80px;
 }
 .pictures{
-    width: 810px;
+    width: 756px;
 }
 .grid {
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -76,19 +76,19 @@
     margin-left: 128px;
 }
 #contact{
-    width: 809px;
+    width: 756px;
 }
 .form img{
     height: 337px;
-    left: 13%;
+    left: 11%;
     top: 55px;
 }
 .msg .inner{
-    left: 22%;
+    left: 48%;
 }
 .form h1{
     font-size: 18px;
-    left: 48%;
+    left: 49%;
     top: 48px;
 }
 .msg .inner input {
@@ -135,4 +135,7 @@ form a i{
 }
 .inner{
     margin-bottom: 5px;
+}
+.copy h1{
+    margin-top: 140px;
 }
