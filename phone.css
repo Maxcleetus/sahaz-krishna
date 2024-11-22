@@ -1,0 +1,135 @@
+.logo h1{
+    font-size: 46px;
+    margin-top: 10px;
+}
+.travel{
+    position: fixed;
+    top: -51px;
+    height: 219%;
+    width: 35%;
+    background-color: dimgrey;
+    left: 100%;
+    z-index: 2;
+    transition: 0.5s;
+}
+.travel ul{
+    display: block;
+    position: absolute;
+    top: 5%;
+    left: 12%;
+    font-size: 62px;
+}
+.travel ul li a{
+    font-size: 36px;
+    padding: 0px;
+}
+.travel .fa-bars{
+    display: block;
+    position: absolute;
+    top: 67px;
+    left: -53%;
+    font-size: 38px;
+    z-index: -2;
+    transition: 0.5s;
+}
+.travel .fa-xmark{
+    display: block;
+    position: absolute;
+    top: 67px;
+    left: 100%;
+    font-size: 55px;
+    z-index: -2;
+}
+.travel ul a:hover::after{
+    left: 7px;
+}
+/* .....................photo-adjust......................... */
+.text{
+    height: 1740px;
+    margin-top: 10px;
+    width: 804px;
+}
+.text .logo2 {
+    top: -172px;
+    right: 67px;
+    height: 1086px;
+    width: 666px;
+    font-size: 28px;
+}
+.text .text1 h1 {
+    top: 1395px;
+    left: 96px;
+    font-size: 56px;
+}
+.back a{
+    font-size: 80px;
+}
+.pictures{
+    width: 810px;
+}
+.grid {
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    grid-gap: 16px;
+    width: 658px;
+}
+.grid div{
+    margin-left: 128px;
+}
+#contact{
+    width: 809px;
+}
+.form img{
+    height: 337px;
+    left: 13%;
+    top: 55px;
+}
+.msg .inner{
+    left: 22%;
+}
+.form h1{
+    font-size: 18px;
+    left: 48%;
+    top: 48px;
+}
+.msg .inner input {
+    width: 349px;
+    padding: 20px;
+    outline-color: black;
+    font-size: 15px;
+}
+.msg .inner textarea{
+    width: 349px;
+    outline-color: black;
+}
+.form img{
+    border-radius: 16px;
+}
+.msg .inner {
+    left: 48%;
+    top: 137px;
+    border-radius: 10px;
+}
+form a i{
+    top: 65%;
+}
+.msg{
+    height: 75vh;
+}
+.grid div img{
+    border-radius: 10px;
+}
+.grid div{
+    background: #f5f8ff;
+}
+.popup img{
+    top: 30%;
+    left: 25%;
+    height: 30%;
+    width: 50%;
+}
+.popup span{
+    font-size: 78px;
+    color: black;
+    top: 29%;
+    left: 68%;
+}
