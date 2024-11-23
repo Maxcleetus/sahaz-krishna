@@ -65,11 +65,11 @@ body{
     position: relative;
 }
 .text .logo2{
-    height: 500px;
-    width: 345px;
+    height: 483px;
+    width: 375px;
     position: relative;
     top: 7px;
-    right: 318px;
+    right: 292px;
     background-color: #f5f8ff;
     transition: 1s;
     cursor: pointer;
@@ -90,7 +90,7 @@ body{
     backface-visibility: hidden;
 }
 .front{
-    background: url(images/photo26messicup.jpg);
+    background: url(images/photo23messi.jpg);
     background-size: cover;
     
 }
@@ -169,17 +169,17 @@ body{
 .popup img{
     position: absolute;
     top: 20%;
-    left: 30%;
+    left: 36%;
     height: 60%;
-    width: 40%;
+    width: 30%;
     border-radius: 5px;
 }
 .popup span{
     font-size: 40px;
-    color: #ada7a7;
+    color: black;
     position: absolute;
     top: 19%;
-    left: 68%;
+    left: 64%;
     z-index: 110;
     cursor: pointer;
 }
