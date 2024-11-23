@@ -1,6 +1,7 @@
 .logo h1{
     font-size: 46px;
-    margin-top: 10px;
+    margin-top: 34px;
+    margin-left: -41px;
 }
 .travel{
     position: fixed;
@@ -26,7 +27,7 @@
 .travel .fa-bars{
     display: block;
     position: absolute;
-    top: 67px;
+    top: 77px;
     left: -53%;
     font-size: 38px;
     z-index: -2;
@@ -45,19 +46,19 @@
 }
 /* .....................photo-adjust......................... */
 .text{
-    height: 1740px;
+    height: 1500px;
     margin-top: 10px;
     width: 756px;
 }
 .text .logo2 {
-    top: -172px;
-    right: 30px;
+    top: -171px;
+    right: 42px;
     height: 991px;
-    width: 697px;
+    width: 668px;
     font-size: 28px;
 }
 .text .text1 h1 {
-    top: 1395px;
+    top: 1131px;
     left: 68px;
     font-size: 56px;
 }
@@ -144,4 +145,7 @@ form a i{
 }
 .copy h1{
     margin-top: 140px;
+}
+.pictures h1 {
+    margin-top: -122px;
 }
