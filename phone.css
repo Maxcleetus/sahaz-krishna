@@ -83,6 +83,12 @@
     left: 11%;
     top: 55px;
 }
+.form h2{
+    position: absolute;
+    top: 450px;
+    left: 142px;
+    font-size: 17px;
+}
 .msg .inner{
     left: 48%;
 }
