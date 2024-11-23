@@ -140,6 +140,12 @@ body{
     display: inline-block;
     cursor: pointer;
 }
+.form h2{
+    position: absolute;
+    top: 509px;
+    left: 307px;
+    font-size: 24px;
+}
 .grid div img{
     height: 262px;
     width: 223px;
