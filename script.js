@@ -10,11 +10,11 @@ document.querySelector('.popup span').onclick = ()=>{
 }
 //left and right
 function bar(){
-    document.querySelector(".travel").style.left = "66%"
+    document.querySelector(".travel").style.left = "70%"
     document.querySelector(".travel .fa-bars").style.left = "100%"
     document.querySelector(".travel .fa-xmark").style.left = "13%"
 }
 function rembar(){
     document.querySelector(".travel").style.left = "100%"
-    document.querySelector(".travel .fa-bars").style.left = "-53%"
+    document.querySelector(".travel .fa-bars").style.left = "-38%"
 }

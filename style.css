@@ -26,8 +26,10 @@ body{
     align-items: center;
 }
 .travel ul li{
-    list-style: none;
-    
+    list-style: none;   
+}
+.travel ul li p{
+    font-size: 35px;
 }
 .travel ul a{
     text-decoration: none;
@@ -36,7 +38,7 @@ body{
     color: #110f29;
     position: relative;
 }
-.travel ul a::after{
+.travel ul .a::after{
     content: "";
     position: absolute;
     background-color: #110f29;
@@ -46,7 +48,7 @@ body{
     left: 23px;
     transition: 0.5s;
 }
-.travel ul a:hover::after{
+.travel ul .a:hover::after{
     width: 57%;
 }
 .travel{
@@ -82,6 +84,17 @@ body{
     left: 114px;
     font-size: 40px;
 }
+.waa{
+    position: absolute;
+    top: 66%;
+    left: 29%;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #110f29;
+    margin-top: 41px;
+    transition: 0.5s;
+}
 .front , .back{
     width: 100%;
     height: 100%;
@@ -103,12 +116,13 @@ body{
     justify-content: center;
     text-align: center; 
 }
-.back a{
+.back .inst{
     position: absolute;
     top: 66%;
-    left: 46%;
-    font-size: 30px;
-    color: black;
+    left: 29%;
+    font-size: 17px;
+    font-weight: bold;
+    color: #110f29;
     transition: 0.5s;
 }
 .back a:hover{
@@ -213,7 +227,7 @@ body{
 .msg{
     position: relative;
     gap: 20px;
-    height: 100vh;
+    height: 727px;
 }
 .msg .inner{
     display: flex;
@@ -268,6 +282,21 @@ form a i{
     font-size: 29px;
     color: black;
     transition: 0.5s;
+}
+.wa{
+    position: relative;
+}
+.wa a{
+    position: absolute;
+    top: -171px;
+    left: 322px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #110f29;
+    font-weight: bold;
+}
+.phnwa{
+    display: none;
 }
 form a i:hover{
     color: #ada7a7;
