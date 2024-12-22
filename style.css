@@ -116,14 +116,21 @@ body{
     justify-content: center;
     text-align: center; 
 }
-.back .inst{
+.back .inst {
     position: absolute;
-    top: 66%;
-    left: 29%;
-    font-size: 17px;
+    top: 67%;
+    left: 24%;
+    font-size: 22px;
     font-weight: bold;
     color: #110f29;
     transition: 0.5s;
+}
+.back a {
+    top: 358px;
+    left: 104px;
+    position: absolute;
+    text-decoration: none;
+    font-size: 20px;
 }
 .back a:hover{
     color: #110f29;
@@ -137,6 +144,7 @@ body{
     text-align: center;
     margin-top: 30px;
     font-size: 40px;
+    margin-bottom: 20px;
 }
 .grid{
     display: grid;
@@ -145,10 +153,10 @@ body{
 }
 .grid div{
     background-color: #f5f8ff;
-    margin-top: 78px;
-    margin-left: 94px;
-    height: 262px;
-    width: 223px;
+    margin-top: 49px;
+    margin-left: 15px;
+    height: 410px;
+    width: 350px;
     border-radius: 5px;
     overflow: hidden;
     display: inline-block;
@@ -161,11 +169,11 @@ body{
     font-size: 24px;
 }
 .grid div img{
-    height: 262px;
-    width: 223px;
+    height: 400px;
+    width: 350px;
     border-radius: 5px;
     transition: 0.5s;
-
+    box-shadow: 5px 5px 5px 5px;
 }
 .grid div img:hover{
     scale: 1.1;
@@ -182,9 +190,9 @@ body{
 }
 .popup img{
     position: absolute;
-    top: 20%;
+    top: 16%;
     left: 36%;
-    height: 60%;
+    height: 69%;
     width: 30%;
     border-radius: 5px;
 }
@@ -192,7 +200,7 @@ body{
     font-size: 40px;
     color: black;
     position: absolute;
-    top: 19%;
+    top: 15%;
     left: 64%;
     z-index: 110;
     cursor: pointer;
